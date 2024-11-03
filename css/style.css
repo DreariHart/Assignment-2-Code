@@ -1,0 +1,31 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: magneto;
+    font-size: 22px;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    max-height: 100px;
+}
+
+.header-flex div {
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.header-flex div a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-height: 80px;
+    max-width: auto;
+}
