@@ -65,7 +65,7 @@ h2 {
 
 .landing-grid {
     display: grid;
-    grid-template-columns: 3fr 2fr 3fr 2fr;
+    grid-template-columns: 2fr 3fr 2fr 3fr;
     grid-template-rows: 0.5fr 0.5fr 2fr 2fr;
     align-items: center;
 }
@@ -80,7 +80,22 @@ h2 {
 }
 
 .landing-grid-image {
-    max-width: 100%;
+    width: 80%;
+}
+
+.landing-grid-text {
+    padding: 0px;
+    margin: 0px;
+}
+
+.landing-grid-text a{
+    text-decoration: none;
+    color: white;
+}
+
+.landing-grid-text a:hover{
+    border-bottom: rgb(255, 165, 165) 2px solid;
+    color: rgb(255, 165, 165);
 }
 
 p {
