@@ -120,6 +120,7 @@ h2 {
     grid-template-columns: 2fr 3fr 3fr 2fr;
     grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
+    flex-grow: 1;
 }
 
 .landing-grid-subtitle {
@@ -177,16 +178,16 @@ h2 {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
 }
 
 .main-grid div audio {
-    padding: 20px;
+    margin-left: 25%;
     width: 50%;
 }
 .main-grid-subtitle {
     grid-column: span 2;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding: 40px;
 }
 /*
 ***************************************************
@@ -216,13 +217,13 @@ footer {
 }
 
 .footer-flex div h1{
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 0px;
 }
 
 .footer-flex-item {
-    font-family: serif;
+    font-family: Helvetica, serif;
     max-width: 30%;
     min-width: 250px;
-    font-size: 10px;
+    font-size: 15px;
 }
