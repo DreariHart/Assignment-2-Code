@@ -244,4 +244,8 @@ footer {
     .landing-grid-image {
         margin-left: 20px;
     }
+
+    .header-flex-item {
+        font-size: 14px;
+    }
 }
