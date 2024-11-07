@@ -173,22 +173,6 @@ h2 {
     padding: 40px;
 }
 
-@media screen and (max-width: 775px) {
-
-    .main-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .main-grid-subtitle {
-        grid-column: span 1;
-        padding: 40px;
-    }
-
-    .footer-flex {
-        column-gap: 275px;
-    }
-}
-
 /*
 ***************************************************
 -----------------Footer Styles---------------------
@@ -226,4 +210,38 @@ footer {
     max-width: 30%;
     min-width: 250px;
     font-size: 15px;
+}
+
+/*
+***************************************************
+--------------Responsive Styles--------------------
+***************************************************
+*/
+
+@media screen and (max-width: 775px) {
+
+    .main-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .main-grid-subtitle {
+        grid-column: span 1;
+        padding: 40px;
+    }
+
+    .footer-flex {
+        column-gap: 275px;
+    }
+
+    .landing-grid {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .landing-grid-subtitle {
+        grid-column: span 2;
+    }
+
+    .landing-grid-image {
+        margin-left: 20px;
+    }
 }
